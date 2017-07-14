@@ -108,13 +108,19 @@ h1, h2, h3 {
   font-size: 20px;
 }
 
-.wrap{
+.wrap {
   width: 30%;
   position: fixed;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+}
+
+.overlay {
+  background-color: grey;
+  height: 200px;
+  opacity: 0.5;
 }
 
 .img-panel {
