@@ -3,27 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="mremma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mr Emma</title>
   </head>
   <body>
     <header class="header">
       <nav class="top-navigation">
         <ul class="navigation-list">
-          <li class="navigation-list-item">
-            <span class="logo">Mr. Emma</span>
+          <li class="navigation-list-item top-nav-item">
+            <div class="logo">Mr. Emma</div>
             <!-- <img class="nav-img" src="mremma-logo.jpg" alt="Mr.Emma-logo"> -->
           </li>
-          <li class="navigation-list-item">
-            <span>Bernd</span>
+          <li class="navigation-list-item top-nav-item">
+            <i class="fa fa-user icon" aria-hidden="true"></i>
+            <div>Bernd</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Karte</span>
+          <li class="navigation-list-item top-nav-item">
+            <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+            <div>Karte</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Korb</span>
+          <li class="navigation-list-item top-nav-item">
+            <i class="fa fa-shopping-cart icon" aria-hidden="true"></i>
+            <div>Korb</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Liste</span>
+          <li class="navigation-list-item top-nav-item">
+            <i class="fa fa-list icon" aria-hidden="true"></i>
+            <div>Liste</div>
           </li>
         </ul>
       </nav>
@@ -33,8 +38,18 @@
         <div class="overlay">
         </div>
           <div class="search">
-            <input class="searchTerm" type="text" name="search" placeholder="Suchbegriff">
-            <button type="submit" class="searchButton">suchen</button>
+            <input class="search-term" type="text" name="search" placeholder="Suchbegriff">
+            <button type="submit" class="search-button">suchen</button>
+            <div class="search-selection">
+              <input type="checkbox" name="" value="">Angebote
+              <input type="checkbox" name="" value="">Bio
+              <input type="checkbox" name="" value="">Diät
+              <input type="checkbox" name="" value="">Rezepte<br>
+              <input type="checkbox" name="" value="">Kategorie
+              <input type="checkbox" name="" value="">Fairtrade
+              <input type="checkbox" name="" value="">Andere
+              <input type="checkbox" name="" value="">Wissen
+            </div>
           </div>
       </div>
         <div class="img-panel">
@@ -54,20 +69,25 @@
     <footer class="footer">
       <nav class="top-navigation">
         <ul class="navigation-list">
-          <li class="navigation-list-item">
-            <span>Angebote</span>
+          <li class="navigation-list-item bottom-nav-item">
+            <i class="fa fa-bolt icon" aria-hidden="true"></i>
+            <div>Angebote</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Deals</span>
+          <li class="navigation-list-item bottom-nav-item">
+            <i class="fa fa-gift icon" aria-hidden="true"></i>
+            <div>Deals</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Markt</span>
+          <li class="navigation-list-item bottom-nav-item">
+            <i class="fa fa-home icon" aria-hidden="true"></i>
+            <div>Markt</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Wissen</span>
+          <li class="navigation-list-item bottom-nav-item">
+            <i class="fa fa-book icon" aria-hidden="true"></i>
+            <div>Wissen</div>
           </li>
-          <li class="navigation-list-item">
-            <span>Rezepte</span>
+          <li class="navigation-list-item bottom-nav-item">
+            <i class="fa fa-cutlery icon" aria-hidden="true"></i>
+            <div>Rezepte</div>
           </li>
         </ul>
       </nav>
