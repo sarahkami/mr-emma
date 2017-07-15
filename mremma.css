@@ -17,20 +17,20 @@ h1, h2, h3 {
   background-color: #ffbbbb;
   top: 0;
   width: 100%;
-  height: 10%;
+  height: 80px;
   position: fixed;
 }
 
 .content {
   height: auto;
-  padding: 10% 0;
+  /*padding: 10% 0;*/
 }
 
   .footer {
     background-color: #ffbbbb;
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 80px;
     position: fixed;
   }
 
@@ -133,6 +133,8 @@ h1, h2, h3 {
 
 .search-selection {
   background-color: #505150;
+  border: 1px solid #828282;
+  border-radius: 5px;
 }
 
 .wrap {
@@ -144,6 +146,10 @@ h1, h2, h3 {
   z-index: 10;
 }
 
+.search-map {
+  left: 30%;
+}
+
 .overlay {
   background-color: grey;
   height: 200px;
@@ -153,7 +159,24 @@ h1, h2, h3 {
 .img-panel {
   width: 100%;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 25%;
+}
+
+.supermarket-map {
+  float: left;
+}
+
+.list {
+  float: left;
+  display: inline-block;
+  margin-top: 80px;
+    background-color: green;
+}
+
+.karte {
+  margin-top: 80px;
+  width: 60%;
+  float: left;
 }
 
 .icon {
